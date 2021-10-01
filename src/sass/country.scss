@@ -1,0 +1,48 @@
+body {
+  background-image: url('../images/bg.png');
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.serch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.input {
+  text-align: center;
+  width: 30em;
+  height: 40px;
+  box-shadow: 6px 6px 2px 1px rgba(0, 0, 100, 0.2);
+  border-radius: 5px;
+}
+
+.country {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.item {
+  font-size: 20px;
+  font-weight: 700;
+}
